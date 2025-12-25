@@ -1,0 +1,5 @@
+---
+# Minimal overrides for gcp-2node inventory
+# Use Calico and set the API Server advertise address to the control-plane internal IP
+kube_network_plugin: calico
+kube_apiserver_advertise_address: 10.0.1.3

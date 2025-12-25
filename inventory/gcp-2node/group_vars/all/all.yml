@@ -1,0 +1,4 @@
+---
+# Minimal overrides for gcp-2node inventory
+# Enforce 'external' cloud provider handling per guidance (do not install cloud controllers)
+cloud_provider: external

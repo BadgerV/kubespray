@@ -1,0 +1,8 @@
+---
+# Minimal addon settings for learning cluster — disabled by default per policy
+dashboard_enabled: false
+helm_enabled: false
+metrics_server_enabled: false
+# extra safety: ensure common load-balancer/ingress add-ons remain disabled
+ingress_nginx_enabled: false
+metallb_enabled: false
